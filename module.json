@@ -1,6 +1,6 @@
 {
   "id": "test-homebrew",
-  "title": "Test Homebrew",
+  "title": "Personal Homebrew",
   "version": "1.0.0",
   "compatibility": {
     "minimum": "12",
@@ -20,5 +20,8 @@
       "name": "CosmicCoffeeBeans",
       "flags": {}
     }
+  ],
+  "scripts": [
+    "scripts/test.js"
   ]
 }
