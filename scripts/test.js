@@ -12,3 +12,8 @@ Hooks.on("ready", function() {
 Hooks.once("init", function() {
     CONFIG.debug.hooks = true;
 })
+
+// Hopefully a chat message
+Hooks.once("read", function() {
+    ChatMessage.create({content: "This is a test message from the module."});
+});
