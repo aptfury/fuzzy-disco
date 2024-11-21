@@ -21,10 +21,8 @@
       "flags": {}
     }
   ],
-  "scripts": [
-    "scripts/test.js"
-  ],
   "esmodules": [
-    "scripts/test-message.js"
+    "scripts/test-message.js",
+    "scripts/test.js"
   ]
 }

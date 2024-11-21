@@ -1,3 +1,3 @@
-Hooks.oncer("init", function() {
+Hooks.once("init", function() {
     ChatMessage.create({content: "hello"});
 });
