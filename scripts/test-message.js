@@ -1,3 +1,3 @@
-Hooks.once("init", function() {
-    ChatMessage.create({content: "hello", author: "STrVxwVEHXp9QCoA"});
+Hooks.once("init", async function() {
+    await ChatMessage.create({content: "hello", author: "STrVxwVEHXp9QCoA"});
 });
