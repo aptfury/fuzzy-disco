@@ -7,3 +7,10 @@ Hooks.on("init", function() {
 Hooks.on("ready", function() {
     console.log("This code runs once core initialization is ready and game data is available.");
 });
+
+const msg = [{flavor: "A Test Message", content: "This is a message for chat once the software is ready."}];
+
+// Hopefully a chat message
+Hooks.on("ready", function() {
+    BaseChatMessage.create(msg);
+})

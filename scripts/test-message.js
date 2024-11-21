@@ -1,4 +1,4 @@
-export function startMessage() {
+/* export function startMessage() {
     const data = [
         {
             flavor: "A Test Message",
@@ -8,4 +8,4 @@ export function startMessage() {
     Hooks.on("ready", function() {
         BaseChatMessage.create(data);
     });
-}
+} */
