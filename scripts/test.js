@@ -14,6 +14,6 @@ Hooks.once("init", function() {
 })
 
 // Hopefully a chat message
-Hooks.once("read", function() {
+Hooks.once("init", function() {
     ChatMessage.create({content: "This is a test message from the module."});
 });
