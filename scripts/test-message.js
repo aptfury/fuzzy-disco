@@ -6,6 +6,6 @@ export function startMessage() {
         }
     ];
     Hooks.on("ready", function() {
-        ChatMessage.create(data);
+        BaseChatMessage.create(data);
     });
 }
