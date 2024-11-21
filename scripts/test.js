@@ -12,5 +12,5 @@ const msg = [{flavor: "A Test Message", content: "This is a message for chat onc
 
 // Hopefully a chat message
 Hooks.on("init", function() {
-    BaseChatMessage.create(msg);
+    ChatMessage.create(msg);
 })
