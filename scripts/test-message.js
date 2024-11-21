@@ -1,5 +1,3 @@
-function startMessage(msg) {
-    return ChatMessage.create({content: msg});
-};
-
-export { startMessage };
+Hooks.oncer("init", function() {
+    ChatMessage.create({content: "hello"});
+});

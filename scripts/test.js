@@ -13,5 +13,4 @@ Hooks.on("ready", function() {
 // Debugging Hooks
 Hooks.once("init", function() {
     CONFIG.debug.hooks = true;
-    startMessage("Hello");
 })
