@@ -11,6 +11,11 @@ Hooks.on("ready", function() {
 const msg = "This is a message for chat once the software is ready."
 
 // Hopefully a chat message
-Hooks.on("init", function() {
+Hooks.once("init", function() {
     ChatMessage.create({content: msg});
+})
+
+// Debugging Hooks
+Hooks.once("init", function() {
+    CONFIG.debug.hooks = true;
 })
