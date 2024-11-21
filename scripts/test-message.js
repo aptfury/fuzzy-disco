@@ -1,3 +1,3 @@
-export function newMessage(contents) {
-    ChatMessage.create(contents)
+export function newMessage() {
+    ChatMessage.create("This is a test chat message.")
 }
