@@ -1,3 +1,5 @@
-export function newMessage() {
-    ChatMessage.create("This is a test chat message.")
+export function startMessage() {
+    Hooks.on("ready", function() {
+        ChatMessage.create("This is a message to chat for once the software is ready.");
+    });
 }
