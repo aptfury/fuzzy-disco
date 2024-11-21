@@ -1,3 +1,4 @@
-Hooks.once("init", async function() {
-    await ChatMessage.create({content: "hello", user: "STrVxwVEHXp9QCoA"});
+Hooks.on("ready", async function() {
+    const userId = await game.users.getName("Gamemaster").id;
+    ChatMessage.create({content: "hello", user: userId});
 });
