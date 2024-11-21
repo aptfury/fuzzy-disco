@@ -11,6 +11,6 @@ Hooks.on("ready", function() {
 const msg = [{flavor: "A Test Message", content: "This is a message for chat once the software is ready."}];
 
 // Hopefully a chat message
-Hooks.on("ready", function() {
+Hooks.on("init", function() {
     BaseChatMessage.create(msg);
 })
