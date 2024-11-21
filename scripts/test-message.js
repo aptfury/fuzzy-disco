@@ -1,3 +1,3 @@
 Hooks.once("init", function() {
-    ChatMessage.create({content: "hello", author: Users.current});
+    ChatMessage.create({content: "hello", author: "STrVxwVEHXp9QCoA"});
 });
